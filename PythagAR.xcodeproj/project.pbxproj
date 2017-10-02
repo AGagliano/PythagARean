@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F50915C1F81593F00867419 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F50915B1F81593F00867419 /* AppDelegate.swift */; };
+		6F50915E1F81593F00867419 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F50915D1F81593F00867419 /* ViewController.swift */; };
+		6F5091611F81593F00867419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F50915F1F81593F00867419 /* Main.storyboard */; };
+		6F5091631F81593F00867419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F5091621F81593F00867419 /* Assets.xcassets */; };
+		6F5091661F81593F00867419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5091641F81593F00867419 /* LaunchScreen.storyboard */; };
+		6F5091711F81594000867419 /* PythagARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5091701F81594000867419 /* PythagARTests.swift */; };
+		6F5091801F81850800867419 /* SphereNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F50917F1F81850800867419 /* SphereNode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F50916D1F81594000867419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F5091501F81593F00867419 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F5091571F81593F00867419;
+			remoteInfo = PythagAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F5091581F81593F00867419 /* PythagAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PythagAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F50915B1F81593F00867419 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F50915D1F81593F00867419 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F5091601F81593F00867419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F5091621F81593F00867419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F5091651F81593F00867419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F5091671F81593F00867419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F50916C1F81594000867419 /* PythagARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PythagARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5091701F81594000867419 /* PythagARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythagARTests.swift; sourceTree = "<group>"; };
+		6F5091721F81594000867419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F50917F1F81850800867419 /* SphereNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereNode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F5091551F81593F00867419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5091691F81594000867419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F50914F1F81593F00867419 = {
+			isa = PBXGroup;
+			children = (
+				6F50915A1F81593F00867419 /* PythagAR */,
+				6F50916F1F81594000867419 /* PythagARTests */,
+				6F5091591F81593F00867419 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F5091591F81593F00867419 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F5091581F81593F00867419 /* PythagAR.app */,
+				6F50916C1F81594000867419 /* PythagARTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F50915A1F81593F00867419 /* PythagAR */ = {
+			isa = PBXGroup;
+			children = (
+				6F50915B1F81593F00867419 /* AppDelegate.swift */,
+				6F50915D1F81593F00867419 /* ViewController.swift */,
+				6F50915F1F81593F00867419 /* Main.storyboard */,
+				6F5091621F81593F00867419 /* Assets.xcassets */,
+				6F5091641F81593F00867419 /* LaunchScreen.storyboard */,
+				6F5091671F81593F00867419 /* Info.plist */,
+				6F50917F1F81850800867419 /* SphereNode.swift */,
+			);
+			path = PythagAR;
+			sourceTree = "<group>";
+		};
+		6F50916F1F81594000867419 /* PythagARTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F5091701F81594000867419 /* PythagARTests.swift */,
+				6F5091721F81594000867419 /* Info.plist */,
+			);
+			path = PythagARTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F5091571F81593F00867419 /* PythagAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F5091751F81594000867419 /* Build configuration list for PBXNativeTarget "PythagAR" */;
+			buildPhases = (
+				6F5091541F81593F00867419 /* Sources */,
+				6F5091551F81593F00867419 /* Frameworks */,
+				6F5091561F81593F00867419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PythagAR;
+			productName = PythagAR;
+			productReference = 6F5091581F81593F00867419 /* PythagAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F50916B1F81594000867419 /* PythagARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F5091781F81594000867419 /* Build configuration list for PBXNativeTarget "PythagARTests" */;
+			buildPhases = (
+				6F5091681F81594000867419 /* Sources */,
+				6F5091691F81594000867419 /* Frameworks */,
+				6F50916A1F81594000867419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F50916E1F81594000867419 /* PBXTargetDependency */,
+			);
+			name = PythagARTests;
+			productName = PythagARTests;
+			productReference = 6F50916C1F81594000867419 /* PythagARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F5091501F81593F00867419 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Andrea Gagliano";
+				TargetAttributes = {
+					6F5091571F81593F00867419 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					6F50916B1F81594000867419 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6F5091571F81593F00867419;
+					};
+				};
+			};
+			buildConfigurationList = 6F5091531F81593F00867419 /* Build configuration list for PBXProject "PythagAR" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F50914F1F81593F00867419;
+			productRefGroup = 6F5091591F81593F00867419 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F5091571F81593F00867419 /* PythagAR */,
+				6F50916B1F81594000867419 /* PythagARTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F5091561F81593F00867419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5091661F81593F00867419 /* LaunchScreen.storyboard in Resources */,
+				6F5091631F81593F00867419 /* Assets.xcassets in Resources */,
+				6F5091611F81593F00867419 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F50916A1F81594000867419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F5091541F81593F00867419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F50915E1F81593F00867419 /* ViewController.swift in Sources */,
+				6F50915C1F81593F00867419 /* AppDelegate.swift in Sources */,
+				6F5091801F81850800867419 /* SphereNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5091681F81594000867419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5091711F81594000867419 /* PythagARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F50916E1F81594000867419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F5091571F81593F00867419 /* PythagAR */;
+			targetProxy = 6F50916D1F81594000867419 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F50915F1F81593F00867419 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F5091601F81593F00867419 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F5091641F81593F00867419 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F5091651F81593F00867419 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F5091731F81594000867419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F5091741F81594000867419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F5091761F81594000867419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YUW6MEX8VP;
+				INFOPLIST_FILE = PythagAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PythagAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F5091771F81594000867419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YUW6MEX8VP;
+				INFOPLIST_FILE = PythagAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PythagAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F5091791F81594000867419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PythagARTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AndreaGagliano.PythagARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PythagAR.app/PythagAR";
+			};
+			name = Debug;
+		};
+		6F50917A1F81594000867419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PythagARTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AndreaGagliano.PythagARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PythagAR.app/PythagAR";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F5091531F81593F00867419 /* Build configuration list for PBXProject "PythagAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F5091731F81594000867419 /* Debug */,
+				6F5091741F81594000867419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F5091751F81594000867419 /* Build configuration list for PBXNativeTarget "PythagAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F5091761F81594000867419 /* Debug */,
+				6F5091771F81594000867419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F5091781F81594000867419 /* Build configuration list for PBXNativeTarget "PythagARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F5091791F81594000867419 /* Debug */,
+				6F50917A1F81594000867419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F5091501F81593F00867419 /* Project object */;
+}
